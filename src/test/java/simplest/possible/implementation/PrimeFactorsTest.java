@@ -3,7 +3,9 @@ package simplest.possible.implementation;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static com.sun.tools.javac.util.List.of;
+// Below Import statement gives error, so I used java.util.List.of instead.
+//import static com.sun.tools.javac.util.List.of;
+import static java.util.List.of;
 import static java.util.Collections.emptyList;
 
 public class PrimeFactorsTest {
